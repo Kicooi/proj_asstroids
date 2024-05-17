@@ -8,9 +8,8 @@ if global.paused == false { // Only runs if game is unpaused
 			instance_activate_layer("Input");
 		} else {
 			obj_1god_game.alarm[2] = 10;
-			instance_activate_layer("game_over");
-			
-			instance_create_layer(fa_center, fa_middle, "game_over", obj_select);
+			instance_activate_layer("game_over");	
+			instance_create_layer(fa_center, fa_middle, "game_over", obj_select); // manually create selector obj
 			
 		}
 		

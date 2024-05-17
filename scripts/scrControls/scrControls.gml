@@ -152,8 +152,6 @@ function end_menu_controls () {
 	image_xscale = button_array[m_val].image_xscale;
 	image_yscale = button_array[m_val].image_yscale;
 	
-	show_debug_message("m_val: " + string(m_val) + " && m_select: " + string(m_select));
-	
 	if keyboard_check_released(vk_space) {
 		event_perform_object(button_array[m_val], ev_alarm, 0);	
 	}
