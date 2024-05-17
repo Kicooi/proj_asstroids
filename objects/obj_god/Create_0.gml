@@ -1,0 +1,1 @@
+global.screentoggle = true;
